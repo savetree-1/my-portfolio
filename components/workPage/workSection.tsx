@@ -51,7 +51,7 @@ export function WorkSection({
             target="_blank"
             href={item.link}
             style={{
-              background: `url(${item.imageLink}) center center / contain no-repeat`,
+              background: `url(${item.imageLink}) center center / cover no-repeat`,
             }}
           >
             <div className="image__over">

@@ -134,6 +134,8 @@ ul {
   /* -webkit-box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.25);
   box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.25); */
   transform-origin: center;
+  overflow: hidden;
+  border-radius: 1.5rem;
 }
 
 .image__over {
@@ -141,6 +143,7 @@ ul {
   height: 100%;
   overflow: hidden;
   position: relative;
+  border-radius: 1.5rem;
 }
 
 .image__cover {
